@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    margin-left: 300px;
+    animation-name: textFade;
+    animation-duration: 10s;
+}
+
+@keyframes textFade{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+#info{
+
+    margin-left: 300px;
+    font-weight: lighter;
+    margin-top: 425px;
+}
+
+.text{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#book{
+    margin-left: 750px;
+    font-weight: lighter;
+    margin-top: 400px;
+}
+
+#signOff{
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+.navbar input {
+    width: 100px; 
+    height: 70px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+
+.navButton{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#social{
+    margin-top: 600px;
+}
+
+.icon1{
+    width: 100x;
+    height: 100px;
+}
+
+.socialButton{
+    border: none;
+    cursor: pointer;
+
+}
